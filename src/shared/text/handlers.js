@@ -1,17 +1,14 @@
-function _getFont(type){
-    const fonts = {
-        bold: 'roboto-medium',
-        medium: 'roboto-medium',
-        light: 'roboto-light',
-        heavy: 'roboto-heavy',
-        book: 'roboto-medium',
-    }
+function _getFont(type) {
+  const fonts = {
+    bold: 'Roboto-Bold',
+    medium: 'Roboto-Medium',
+    light: 'Roboto-Light',
+    heavy: 'Roboto-Heavy',
+    regular: 'Roboto-Regular',
+    black: 'Roboto-Black',
+  };
 
-    return fonts[type]
+  return fonts[type];
 }
 
-
-
-export {
-    _getFont
-}
+export {_getFont};
