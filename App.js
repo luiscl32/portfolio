@@ -16,7 +16,7 @@ import {
   StatusBar,
 } from 'react-native';
 
-import SText from './src/shared/text';
+import SText from 'shared/text';
 
 import {
   Header,

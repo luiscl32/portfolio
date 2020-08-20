@@ -4,7 +4,6 @@ import {_getFont} from './handlers';
 import s from './styles';
 
 export default function Text({
-  children,
   size = 18,
   color = '#000',
   type = 'regular',
@@ -13,6 +12,7 @@ export default function Text({
   mb = 0,
   mr = 0,
   ml = 0,
+  children,
 }) {
   return (
     <RNText
