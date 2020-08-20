@@ -16,6 +16,8 @@ import {
   StatusBar,
 } from 'react-native';
 
+import SText from './src/shared/text';
+
 import {
   Header,
   LearnMoreLinks,
@@ -27,7 +29,7 @@ import {
 const App: () => React$Node = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" />
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
@@ -45,26 +47,10 @@ const App: () => React$Node = () => {
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
                 screen and then come back to see your edits.
               </Text>
+              <SText type={'bold'} align={'center'}>
+                hola soy un texto
+              </SText>
             </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
           </View>
         </ScrollView>
       </SafeAreaView>
@@ -79,6 +65,7 @@ const styles = StyleSheet.create({
   engine: {
     position: 'absolute',
     right: 0,
+    bottom: 0,
   },
   body: {
     backgroundColor: Colors.white,
@@ -87,11 +74,11 @@ const styles = StyleSheet.create({
     marginTop: 32,
     paddingHorizontal: 24,
   },
-  sectionTitle: {
+  sectionTitle: (type, size) => ({
     fontSize: 24,
-    fontWeight: '600',
+    fontFamily: type,
     color: Colors.black,
-  },
+  }),
   sectionDescription: {
     marginTop: 8,
     fontSize: 18,

@@ -6,6 +6,7 @@ function _getFont(type) {
     heavy: 'Roboto-Heavy',
     regular: 'Roboto-Regular',
     black: 'Roboto-Black',
+    default: 'Roboto-Regular',
   };
 
   return fonts[type];
