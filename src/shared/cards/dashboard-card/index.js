@@ -15,7 +15,8 @@ export default function DashboardCard({
       <View style={s.container}>
         <View style={s.column}>
           <Icon />
-          <Text size={18} color={c.light_gray} type={'black'} align={'center'}>
+          <View style={s.filler} />
+          <Text size={18} color={c.light_gray} type={'medium'} align={'center'}>
             {title}
           </Text>
         </View>
