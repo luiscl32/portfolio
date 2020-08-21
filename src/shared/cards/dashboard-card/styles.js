@@ -8,10 +8,10 @@ export default StyleSheet.create({
     height: wp(43),
     backgroundColor: `${c.light_blue}40`,
     padding: 18,
-    borderRadius: 10,
+    margin: 5,
+    borderRadius: 18,
     borderColor: c.light_gray,
     borderWidth: 1,
-    elevation: 1,
   },
 
   column: {
