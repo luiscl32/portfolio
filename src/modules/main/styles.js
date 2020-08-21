@@ -12,5 +12,6 @@ export default StyleSheet.create({
     paddingHorizontal: 16,
     backgroundColor: c.medium_blue,
     alignItems: 'center',
+    justifyContent: 'center',
   },
 });

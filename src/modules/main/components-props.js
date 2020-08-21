@@ -2,7 +2,7 @@ import { colors as c } from 'theme/colors';
 
 const title = {
   size: 24,
-  color: c.black,
+  color: c.white,
   type: 'heavy',
   align: 'center',
   mb: 10,

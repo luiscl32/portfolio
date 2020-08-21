@@ -6,7 +6,7 @@ import Navigator from 'navigation';
 const App = () => {
   return (
     <>
-      <StatusBar barStyle="light-content" />
+      <StatusBar barStyle="light-content" translucent />
       <SafeAreaView style={s.safeArea}>
         <Navigator />
       </SafeAreaView>
