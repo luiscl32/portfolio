@@ -25,7 +25,7 @@ export default function Navigator() {
             component={scr.Dashboard}
             name={'Main/dashboard'}
             options={{
-              title: 'Dashboard',
+              title: '',
             }}
           />
         </Stack.Navigator>
