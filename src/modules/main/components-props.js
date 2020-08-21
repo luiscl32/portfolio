@@ -1,8 +1,8 @@
-import {colors as c} from 'theme/colors';
+import { colors as c } from 'theme/colors';
 
 const title = {
   size: 24,
-  color: c.white,
+  color: c.black,
   type: 'heavy',
   align: 'center',
   mb: 10,
@@ -15,4 +15,4 @@ const sub_title = {
   align: 'center',
 };
 
-export {title, sub_title};
+export { title, sub_title };
