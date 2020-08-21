@@ -21,6 +21,13 @@ export default function Navigator() {
               headerShown: false,
             }}
           />
+          <Stack.Screen
+            component={scr.Dashboard}
+            name={'Main/dashboard'}
+            options={{
+              title: 'Dashboard',
+            }}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>

@@ -16,7 +16,7 @@ export default function MainPage() {
 
   //functions
   function goToDashboard() {
-    console.log('navigation here');
+    navigate('Main/dashboard');
   }
 
   return (
