@@ -3,10 +3,7 @@ import { Pressable } from 'react-native';
 import Text from 'shared/text';
 import s from './styles';
 import { colors as c } from 'theme/colors';
-
-const ripple_config = {
-  color: c.sub_titles,
-};
+import { ripple_config } from '../ripple-config';
 
 export default function MainButton({
   title,
