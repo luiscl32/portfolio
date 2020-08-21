@@ -7,7 +7,7 @@ export default StyleSheet.create({
     heigh: 48,
     padding: 12,
     borderRadius: 8,
-    backgroundColor: c.dark_blue,
+    backgroundColor: `${c.dark_blue}40`,
     borderWidth: 1,
     borderColor: c.white,
     alignItems: 'center',

@@ -9,7 +9,7 @@ const title = {
 };
 
 const sub_title = {
-  size: 12,
+  size: 14,
   color: c.sub_titles,
   type: 'light',
   align: 'center',

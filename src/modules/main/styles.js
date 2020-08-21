@@ -11,7 +11,6 @@ export default StyleSheet.create({
     width: wp(100),
     paddingHorizontal: 16,
     backgroundColor: c.medium_blue,
-    alignItems: 'center',
     justifyContent: 'center',
   },
 });
