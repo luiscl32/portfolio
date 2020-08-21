@@ -10,7 +10,8 @@
           "theme": "./src/theme",
           "shared": "./src/shared",
           "modules": "./src/modules",
-          "navigation": "./src/navigation"
+          "navigation": "./src/navigation",
+          "utils": "./src/utils"
         }
       }
     ]
