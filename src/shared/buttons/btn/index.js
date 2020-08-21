@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pressable } from 'react-native';
-import { ripple_config } from '../ripple-config';
+import { ripple_config } from 'utils/ripple-config';
 
 export default function Btn({ onPress, children }) {
   return (
