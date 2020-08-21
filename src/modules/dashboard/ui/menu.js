@@ -8,10 +8,10 @@ import Card from 'shared/cards/dashboard-card';
 
 //icons
 const Info = () => (
-  <Icon name={'info-with-circle'} color={c.sub_titles} size={70} />
+  <Icon name={'info-with-circle'} color={c.sub_titles} size={60} />
 );
-const Code = () => <Icon name={'code'} color={c.sub_titles} size={70} />;
-const PortFolio = () => <Icon name={'folder'} color={c.sub_titles} size={70} />;
+const Code = () => <Icon name={'code'} color={c.sub_titles} size={60} />;
+const PortFolio = () => <Icon name={'folder'} color={c.sub_titles} size={60} />;
 const Contact = () => <Icon name={'message'} color={c.sub_titles} size={70} />;
 
 export default function Menu() {

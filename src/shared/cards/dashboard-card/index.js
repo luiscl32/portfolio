@@ -14,8 +14,8 @@ export default function DashboardCard({
     <Pressable android_ripple={ripple_config} onPress={onPress}>
       <View style={s.container}>
         <View style={s.column}>
-          <Icon />
           <View style={s.filler} />
+          <Icon />
           <Text size={18} color={c.light_gray} type={'medium'} align={'center'}>
             {title}
           </Text>
