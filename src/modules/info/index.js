@@ -3,6 +3,8 @@ import { ScrollView } from 'react-native';
 import Background from 'shared/main-containers/background';
 
 import PhotoInfo from './ui/photo-info';
+import InfoCard from './ui/info-cards';
+
 import Text from 'shared/text';
 import { colors as c } from 'theme/colors';
 
@@ -22,13 +24,15 @@ export default function Info() {
           ¿Quien soy?
         </Text>
 
-        <Text align={'left'} color={c.white} type={'light'} size={18}>
+        <Text align={'left'} color={c.white} type={'light'} size={16} mb={40}>
           Me llamo Luis Correa, tengo 28 años, Venezolano, soy desarrollador
           front-end, en React js y React-native.{'\n\n'}
           Me considero una persona muy enfocada lograr los objetivos, ademas de
           eso me encanta trabajar en equipo, ademas de eso me gusta aprender
           nuevas cosas tanto a tecnologia, como nivel humano.
         </Text>
+
+        <InfoCard />
       </ScrollView>
     </Background>
   );

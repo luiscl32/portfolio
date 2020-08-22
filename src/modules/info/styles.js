@@ -28,4 +28,9 @@ export default StyleSheet.create({
     alignSelf: 'center',
     resizeMode: 'cover',
   },
+
+  wrapper: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+  },
 });
