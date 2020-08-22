@@ -3,10 +3,14 @@ import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 import { colors as c } from 'theme/colors';
 
 export default StyleSheet.create({
+  background: {
+    padding: 0,
+  },
+
   container: {
     width: wp(40),
     height: wp(40),
-    backgroundColor: `${c.dark_blue}40`,
+    backgroundColor: `${c.sub_titles}40`,
     borderWidth: 1,
     borderColor: c.light_gray,
     borderRadius: 18,
@@ -20,13 +24,8 @@ export default StyleSheet.create({
 
   image: {
     width: '100%',
-    justifyContent: '100%',
+    height: '100%',
     alignSelf: 'center',
     resizeMode: 'cover',
-  },
-
-  scroll: {
-    flex: 1,
-    width: wp(100),
   },
 });

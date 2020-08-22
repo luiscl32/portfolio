@@ -1,5 +1,4 @@
 import React from 'react';
-import { View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
@@ -24,6 +23,14 @@ export default function Navigator() {
           <Stack.Screen
             component={scr.Dashboard}
             name={'Main/dashboard'}
+            options={{
+              title: '',
+            }}
+          />
+          {/* ----------menu----------- */}
+          <Stack.Screen
+            component={scr.Info}
+            name={'dashboard/info'}
             options={{
               title: '',
             }}
